@@ -1,0 +1,25 @@
+# ============================================================
+# REQUIREMENTS - All Python packages needed for this project
+# Install with: pip install -r requirements.txt
+# ============================================================
+
+# Groq AI library (for LLM calls)
+groq>=0.4.0
+
+# TigerGraph Python client (for graph database)
+pyTigerGraph>=1.0.0
+
+# Streamlit (for the web dashboard)
+streamlit>=1.35.0
+
+# Load environment variables from .env file
+python-dotenv>=1.0.0
+
+# For timing and metrics
+# (built-in: time, datetime - no extra install needed)
+
+# For data handling
+pandas>=2.0.0
+
+# For better table display in Streamlit
+tabulate>=0.9.0
