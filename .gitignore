@@ -1,0 +1,37 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
+
+# Streamlit
+.streamlit/
+
+# HuggingFace cache (large, don't commit)
+*.arrow
+*.lock
+
+# NOTE: faiss_index.bin and *.pkl ARE tracked in git so judges can
+# download the pre-built index from GitHub without rebuilding locally.
+# To exclude them, uncomment:
+# data/*.bin
+# data/*.pkl
