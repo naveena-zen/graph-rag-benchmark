@@ -10,7 +10,7 @@
 > **A production-ready GraphRAG (Retrieval-Augmented Generation) system built for the TigerGraph Hackathon. Compares three inference pipelines side-by-side — LLM-Only, FAISS Wikipedia RAG, and TigerGraph GraphRAG — powered by a 2.3M-token Wikipedia knowledge base and Groq ultra-fast inference.**
 
 ---
-
+Demo video: https://youtu.be/ivRysus49vY
 ## ✅ Hackathon Round 1 Requirements Checklist
 
 | Requirement | Status | Implementation |
