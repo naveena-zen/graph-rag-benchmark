@@ -1,0 +1,12 @@
+310:             "Metric":           ["Tokens Used", "Latency (s)", "Cost/Query", "Context", "LLM Judge", "BERTScore F1", "Token Reduction vs P2"],
+336:                   <li style='color:#ccffee;'>✅ <b>Structured entity context</b> (multi-hop graph traversal, max 150 tokens)</li>
+374:         "⚡ Fastest · No context · Pure LLM baseline"
+381:         "📚 Vector similarity · Flat retrieval · ~768 token context"
+386:         [("👤","User Query",""), ("🔍","Entity Extract","NLP keywords"), ("🕸️","TigerGraph","Multi-hop 2+ hops"),
+387:          ("📌","Graph Context","Entities+Relations"), ("⚡","Groq API","LLaMA 3.1 8B"), ("🏆","Answer","Best quality")],
+388:         "🏆 Graph multi-hop · Structured relational context · Fewer tokens · Superior accuracy"
+396: | 🕸️ Graph DB | TigerGraph Cloud | Multi-hop GSQL traversal |
+490:             thr = "≥0.55 (rescaled)" if _bertscore_mode=="rescaled" else "≥0.85 (raw)"
+520:             thr = "≥0.55 (rescaled)" if _bertscore_mode=="rescaled" else "≥0.85 (raw)"
+522:             thr = "≥0.85 (raw)"
+558:                 "check P3 max_tokens=200 and 60-word context cap in pipelines.py.")

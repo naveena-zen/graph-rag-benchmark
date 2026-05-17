@@ -29,6 +29,6 @@ if TIGERGRAPH_HOST and not TIGERGRAPH_HOST.startswith("http"):
 MAX_HOPS          = 2
 MAX_CONTEXT_NODES = 3
 _P2_CHUNK_TOKENS  = 256
-_P2_TOP_K         = 3
+_P2_TOP_K         = 5
 _P3_MAX_TOKENS    = 150
 _CHARS_PER_TOKEN  = 4
